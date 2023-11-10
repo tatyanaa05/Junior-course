@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color: black;
+    background: white;
+    font-size: 18px;
+    
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.avatar{
+    width: 200px;
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.about{
+    margin-left: 40px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+h2{
+    font-size: 26px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.goals li{
+    padding: 5px;
+}
+
+.time table, .course table{
+    padding: 20px;
+    margin: auto;
+}
+
+.time table tr, .time table td, .time table th{
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.course table th{
+    border-bottom:1px solid gray;
+}
+
+
+.course table th, .course table td, .course table tr{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    display: inline-block;
+    padding: 0 142px;   
+}
+
+.contacts img{
+    padding: 5px 150px;
+}
+
+.contacts{
+    margin-bottom: 50px;
+}
